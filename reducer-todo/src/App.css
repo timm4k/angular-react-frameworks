@@ -1,0 +1,263 @@
+:root {
+  --bg: #020202;
+  --surface: #0a0a0a;
+  --red: #ff0000;
+  --gray: #1a1a1a;
+  --not-started: #888888;
+  --in-process: #ff8800;
+  --done: #00ff00;
+  --low: #00ccff;
+  --medium: #aa3bff;
+  --high: #ff0000;
+  --red-glow: 0 0 15px rgba(255, 0, 0, 0.5), 0 0 30px rgba(255, 0, 0, 0.2);
+  --panel-shadow:
+    0 20px 50px rgba(0, 0, 0, 0.9), 0 0 30px rgba(255, 0, 0, 0.05);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-panel {
+  width: 100%;
+  max-width: 500px;
+  height: 85vh;
+  background: var(--surface);
+  border: 1px solid var(--gray);
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--panel-shadow);
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.progress-line {
+  height: 4px;
+  background: linear-gradient(90deg, #660000, var(--red));
+  box-shadow: var(--red-glow);
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+}
+
+.content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-shadow: var(--red-glow);
+  font-size: 1.8rem;
+}
+
+.scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 15px;
+  padding-right: 0;
+}
+
+.scroll-area::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scroll-area::-webkit-scrollbar-thumb {
+  background: var(--red);
+  border-radius: 2px;
+}
+
+.action-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  background: #000;
+  border: 1px solid var(--gray);
+  color: white;
+  padding: 12px;
+  outline: none;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+input:focus {
+  border-color: var(--red);
+}
+
+.btn-add {
+  background: var(--red);
+  color: #000;
+  border: none;
+  padding: 0 20px;
+  font-weight: 900;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+
+.btn-add:hover {
+  background: #ff3333;
+  box-shadow: 0 0 15px var(--red);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.filter-row {
+  display: flex;
+  gap: 15px;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  color: #888;
+}
+
+.filter-row span {
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 1px;
+}
+
+.filter-row span:hover {
+  color: #bbb;
+}
+
+.filter-row span.active {
+  color: var(--red);
+  text-shadow: 0 0 8px var(--red);
+}
+
+.todo-item {
+  background: #0d0d0d;
+  padding: 15px;
+  border: 1px solid #151515;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.todo-item:hover {
+  border-color: #333;
+  background: #111;
+}
+
+.priority-label {
+  font-size: 0.65rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.priority-label.Low {
+  color: var(--low);
+}
+.priority-label.Medium {
+  color: var(--medium);
+}
+.priority-label.High {
+  color: var(--high);
+}
+
+.status-tag {
+  font-size: 0.6rem;
+  padding: 4px 10px;
+  border: 1px solid;
+  cursor: pointer;
+  margin-right: 12px;
+  text-transform: uppercase;
+}
+
+.status-tag.Not\.Started {
+  color: var(--not-started);
+  border-color: #333;
+}
+.status-tag.In\.Process {
+  color: var(--in-process);
+  border-color: var(--in-process);
+  box-shadow: 0 0 10px rgba(255, 136, 0, 0.3);
+}
+.status-tag.Done {
+  color: var(--done);
+  border-color: var(--done);
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.task-text {
+  font-size: 0.95rem;
+  color: #ffffff;
+}
+
+.task-text.Done {
+  text-decoration: line-through;
+  color: #444 !important;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  color: #444;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.btn-icon:hover {
+  color: var(--red);
+}
+
+.purge-btn {
+  background: transparent;
+  border: 1px dashed #333;
+  color: #666;
+  padding: 12px;
+  margin-top: 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  transition: 0.3s;
+}
+
+.purge-btn:hover {
+  border-color: var(--red);
+  color: var(--red);
+}

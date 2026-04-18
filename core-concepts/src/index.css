@@ -1,0 +1,22 @@
+:root {
+  --bg: #0d0221;
+  --card: #1a0b38;
+  --accent: #bc6ff1;
+  --neon: #c8b6ff;
+  --error: #ff5555;
+  --success: #50fa7b;
+  --border: rgba(188, 111, 241, 0.3);
+  --text: #f8f7ff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
