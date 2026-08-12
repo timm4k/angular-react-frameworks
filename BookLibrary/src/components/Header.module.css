@@ -1,0 +1,96 @@
+.header {
+  width: min(1180px, calc(100% - 48px));
+  margin: 0 auto;
+  min-height: 86px;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid rgba(189, 161, 223, 0.13);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #f4effa;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+.brand i {
+  color: #a578e6;
+  font-style: normal;
+}
+.mark {
+  width: 32px;
+  height: 38px;
+  display: grid;
+  place-items: center;
+  font:
+    700 1.2rem Georgia,
+    serif;
+  border: 1px solid #7f56b8;
+  border-radius: 3px 8px 8px 3px;
+  color: #c8a8f8;
+  box-shadow: inset 3px 0 0 #3a2454;
+}
+.nav {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid #2b2136;
+  border-radius: 999px;
+  background: #120d18;
+}
+.nav button {
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 13px;
+  color: #82788f;
+  background: transparent;
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+.nav button span {
+  margin-left: 5px;
+  color: #665b71;
+}
+.nav .active {
+  color: #f1e8fa;
+  background: #2a1e36;
+}
+.addButton {
+  justify-self: end;
+  border: 1px solid #9d6ee0;
+  border-radius: 999px;
+  padding: 11px 18px;
+  background: #8d5bc9;
+  color: white;
+  font-weight: 700;
+  transition:
+    transform 0.2s,
+    background 0.2s;
+}
+.addButton:hover {
+  background: #a269e4;
+  transform: translateY(-1px);
+}
+@media (max-width: 720px) {
+  .header {
+    width: calc(100% - 28px);
+    grid-template-columns: 1fr auto;
+    padding: 14px 0;
+  }
+  .nav {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    justify-self: stretch;
+  }
+  .nav button {
+    flex: 1;
+  }
+  .addButton {
+    padding: 10px 13px;
+  }
+}

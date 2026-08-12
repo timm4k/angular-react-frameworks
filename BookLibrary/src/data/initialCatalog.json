@@ -1,0 +1,396 @@
+[
+  {
+    "key": "/works/OL27729743W",
+    "title": "The Housemaid",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2022,
+    "cover_i": 15105883,
+    "subject": ["Thriller", "Mystery", "Fiction"],
+    "ratings_average": 3.8888888,
+    "edition_count": 17
+  },
+  {
+    "key": "/works/OL34224558W",
+    "title": "Never Lie",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2022,
+    "cover_i": 13198561,
+    "subject": [
+      "Thriller",
+      "Mystery",
+      "Mystery Thriller",
+      "Fiction",
+      "Suspense"
+    ],
+    "ratings_average": 3.25,
+    "edition_count": 9
+  },
+  {
+    "key": "/works/OL20569445W",
+    "title": "The Terminal List",
+    "author_name": ["Jack Carr"],
+    "first_publish_year": 2018,
+    "cover_i": 9211494,
+    "subject": [
+      "United states, fiction",
+      "Crime, fiction",
+      "Fiction, mystery & detective, general",
+      "Fiction, suspense",
+      "Serial murders, fiction"
+    ],
+    "ratings_average": 3.5,
+    "edition_count": 8
+  },
+  {
+    "key": "/works/OL21177849W",
+    "title": "Daylight",
+    "author_name": ["David Baldacci"],
+    "first_publish_year": 2020,
+    "cover_i": 10333194,
+    "subject": [
+      "Fiction, thrillers, general",
+      "Georgia, fiction",
+      "Twins, fiction"
+    ],
+    "ratings_average": 4.3333335,
+    "edition_count": 16
+  },
+  {
+    "key": "/works/OL35335015W",
+    "title": "Do Not Disturb",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2021,
+    "cover_i": 15096889,
+    "subject": [
+      "Thriller",
+      "Mystery",
+      "Mystery Thriller",
+      "Fiction",
+      "Suspense"
+    ],
+    "ratings_average": 4.0,
+    "edition_count": 4
+  },
+  {
+    "key": "/works/OL22013604W",
+    "title": "The Perfect Son",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2020,
+    "cover_i": 14652484,
+    "subject": ["Thriller", "Mystery", "Mystery Thriller"],
+    "ratings_average": 4.0,
+    "edition_count": 3
+  },
+  {
+    "key": "/works/OL21395874W",
+    "title": "When No One Is Watching",
+    "author_name": ["Alyssa Cole"],
+    "first_publish_year": 2020,
+    "cover_i": 10368150,
+    "subject": [
+      "New york (n.y.), fiction",
+      "Missing persons, fiction",
+      "Fiction, mystery & detective, women sleuths"
+    ],
+    "ratings_average": 4.0,
+    "edition_count": 6
+  },
+  {
+    "key": "/works/OL20068530W",
+    "title": "Verity",
+    "author_name": ["Colleen Hoover"],
+    "first_publish_year": 2018,
+    "cover_i": 8747160,
+    "subject": [
+      "Fiction, romance, contemporary, suspense",
+      "Family secrets in fiction",
+      "Man-woman relationships, fiction",
+      "Secrecy in fiction"
+    ],
+    "ratings_average": 3.856,
+    "edition_count": 23
+  },
+  {
+    "key": "/works/OL34113490W",
+    "title": "The Housemaid's Secret",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2023,
+    "cover_i": 13439869,
+    "subject": [
+      "Fiction, thrillers, psychological",
+      "Fiction, thrillers, domestic",
+      "Thriller",
+      "Mystery",
+      "Fiction"
+    ],
+    "ratings_average": 3.75,
+    "edition_count": 7
+  },
+  {
+    "key": "/works/OL34612213W",
+    "title": "One By One",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2020,
+    "cover_i": 14603852,
+    "subject": ["Thriller", "Mystery", "Mystery Thriller"],
+    "ratings_average": 3.6666667,
+    "edition_count": 6
+  },
+  {
+    "key": "/works/OL26831331W",
+    "title": "The 6:20 Man",
+    "author_name": ["David Baldacci"],
+    "first_publish_year": 2022,
+    "cover_i": 13012447,
+    "subject": ["American literature"],
+    "ratings_average": 4.3333335,
+    "edition_count": 14
+  },
+  {
+    "key": "/works/OL24421067W",
+    "title": "Abandoned in Death",
+    "author_name": ["Nora Roberts"],
+    "first_publish_year": 2022,
+    "cover_i": 11981936,
+    "subject": ["Thriller", "Mystery", "Detective fiction", "Crime fiction"],
+    "ratings_average": 4.5,
+    "edition_count": 11
+  },
+  {
+    "key": "/works/OL21984140W",
+    "title": "Devil's Hand",
+    "author_name": ["Jack Carr"],
+    "first_publish_year": 2021,
+    "cover_i": 10860333,
+    "subject": [
+      "Fiction, war & military",
+      "Terrorism, fiction",
+      "Fiction, thrillers, general"
+    ],
+    "ratings_average": 3.3333333,
+    "edition_count": 7
+  },
+  {
+    "key": "/works/OL27814116W",
+    "title": "Perfect Assassin",
+    "author_name": ["James Patterson", "Brian Sitts"],
+    "first_publish_year": 2022,
+    "cover_i": 12997699,
+    "subject": [
+      "Fiction, thrillers, crime",
+      "Fiction, superheroes",
+      "Fiction, thrillers, suspense"
+    ],
+    "ratings_average": 3.5,
+    "edition_count": 10
+  },
+  {
+    "key": "/works/OL34030271W",
+    "title": "After That Night",
+    "author_name": ["Karin Slaughter"],
+    "first_publish_year": 2023,
+    "cover_i": 13607839,
+    "subject": ["American literature"],
+    "ratings_average": 4.0,
+    "edition_count": 7
+  },
+  {
+    "key": "/works/OL27302186W",
+    "title": "Livid",
+    "author_name": ["Patricia Cornwell"],
+    "first_publish_year": 2022,
+    "cover_i": 12982857,
+    "subject": [
+      "Fiction, thrillers, suspense",
+      "Fiction, thrillers, crime",
+      "Fiction, crime"
+    ],
+    "ratings_average": null,
+    "edition_count": 14
+  },
+  {
+    "key": "/works/OL20732608W",
+    "title": "Savage Son",
+    "author_name": ["Jack Carr"],
+    "first_publish_year": 2020,
+    "cover_i": 9423931,
+    "subject": ["Fiction, political", "Fiction, thrillers, general"],
+    "ratings_average": null,
+    "edition_count": 6
+  },
+  {
+    "key": "/works/OL36716484W",
+    "title": "Better Run",
+    "author_name": ["Alina May"],
+    "first_publish_year": 2023,
+    "cover_i": 14614753,
+    "subject": ["Fiction, erotica, general"],
+    "ratings_average": 5.0,
+    "edition_count": 5
+  },
+  {
+    "key": "/works/OL26353464W",
+    "title": "Escape",
+    "author_name": ["James Patterson", "David Ellis"],
+    "first_publish_year": 2022,
+    "cover_i": 12801126,
+    "subject": ["American literature", "Fiction, thrillers, general"],
+    "ratings_average": 4.0,
+    "edition_count": 10
+  },
+  {
+    "key": "/works/OL20084546W",
+    "title": "The Turn of the Key",
+    "author_name": ["Ruth Ware"],
+    "first_publish_year": 2019,
+    "cover_i": 8753735,
+    "subject": [
+      "Fiction, thrillers, general",
+      "Scotland, fiction",
+      "Fiction, psychological",
+      "Fiction, family life"
+    ],
+    "ratings_average": 3.7692308,
+    "edition_count": 7
+  },
+  {
+    "key": "/works/OL24161844W",
+    "title": "Local Woman Missing",
+    "author_name": ["Mary Kubica"],
+    "first_publish_year": 2021,
+    "cover_i": 10677491,
+    "subject": ["American literature"],
+    "ratings_average": 4.0,
+    "edition_count": 8
+  },
+  {
+    "key": "/works/OL21934181W",
+    "title": "The Surrogate Mother",
+    "author_name": ["Freida McFadden"],
+    "first_publish_year": 2020,
+    "cover_i": 15115699,
+    "subject": [
+      "Thriller",
+      "Mystery",
+      "Fiction",
+      "Mystery Thriller",
+      "Suspense"
+    ],
+    "ratings_average": null,
+    "edition_count": 4
+  },
+  {
+    "key": "/works/OL25795997W",
+    "title": "Five Decembers",
+    "author_name": ["James Kestrel"],
+    "first_publish_year": 2021,
+    "cover_i": 12566508,
+    "subject": [
+      "American literature",
+      "Murder",
+      "Investigation",
+      "Fiction",
+      "Pearl Harbor (Hawaii), Attack on, 1941"
+    ],
+    "ratings_average": 4.5,
+    "edition_count": 3
+  },
+  {
+    "key": "/works/OL24760896W",
+    "title": "Quicksilver",
+    "author_name": ["Dean Koontz"],
+    "first_publish_year": 2022,
+    "cover_i": 11509663,
+    "subject": [],
+    "ratings_average": null,
+    "edition_count": 6
+  },
+  {
+    "key": "/works/OL20150279W",
+    "title": "My Lovely Wife",
+    "author_name": ["Samantha Downing"],
+    "first_publish_year": 2019,
+    "cover_i": 8794291,
+    "subject": [
+      "Fiction, suspense",
+      "Fiction, thrillers, suspense",
+      "Fiction, thrillers, crime",
+      "Fiction, thrillers, psychological",
+      "Serial murderers"
+    ],
+    "ratings_average": null,
+    "edition_count": 8
+  },
+  {
+    "key": "/works/OL20759103W",
+    "title": "Spin",
+    "author_name": ["Patricia Cornwell"],
+    "first_publish_year": 2020,
+    "cover_i": 10527947,
+    "subject": [
+      "Fiction, thrillers, general",
+      "Fiction, mystery & detective, women sleuths",
+      "American literature"
+    ],
+    "ratings_average": null,
+    "edition_count": 9
+  },
+  {
+    "key": "/works/OL20150940W",
+    "title": "Blood Orange",
+    "author_name": ["Harriet Tyce"],
+    "first_publish_year": 2019,
+    "cover_i": 8795159,
+    "subject": [
+      "Fiction, suspense",
+      "Fiction, thrillers",
+      "Fiction, thrillers, general",
+      "Fiction, thrillers, suspense",
+      "Fiction, thrillers, legal"
+    ],
+    "ratings_average": 3.0,
+    "edition_count": 10
+  },
+  {
+    "key": "/works/OL20640624W",
+    "title": "Deep state",
+    "author_name": ["Chris Hauty"],
+    "first_publish_year": 2020,
+    "cover_i": 9257732,
+    "subject": [
+      "Fiction, political",
+      "Fiction, thrillers",
+      "Washington (d.c.), fiction",
+      "American literature",
+      "Fiction, thrillers, general"
+    ],
+    "ratings_average": null,
+    "edition_count": 12
+  },
+  {
+    "key": "/works/OL27967747W",
+    "title": "The Boys from Biloxi",
+    "author_name": ["John Grisham"],
+    "first_publish_year": 2022,
+    "cover_i": 12866664,
+    "subject": [],
+    "ratings_average": 4.0,
+    "edition_count": 3
+  },
+  {
+    "key": "/works/OL19732624W",
+    "title": "The terminal list",
+    "author_name": ["Carr, Jack (Joint pseudonym)"],
+    "first_publish_year": 2018,
+    "cover_i": 9245342,
+    "subject": [
+      "Retribution",
+      "United States. Navy. SEALs",
+      "Serial murders",
+      "Political corruption",
+      "Fiction"
+    ],
+    "ratings_average": 4.2,
+    "edition_count": 1
+  }
+]
