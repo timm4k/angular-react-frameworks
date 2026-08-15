@@ -1,0 +1,27 @@
+{
+  "name": "midnight-market",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server db.json --port 3001",
+    "build": "vite build",
+    "lint": "oxlint src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "axios": "^1.11.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-hook-form": "^7.62.0",
+    "yup": "^1.7.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "json-server": "^1.0.0-beta.3",
+    "oxlint": "^1.14.0",
+    "vite": "^7.1.3"
+  }
+}
