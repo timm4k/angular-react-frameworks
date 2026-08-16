@@ -1,0 +1,104 @@
+.panel {
+  position: relative;
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  padding: 28px;
+}
+
+.statusbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+
+.metric {
+  display: grid;
+  gap: 2px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.metricLabel {
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+}
+
+.boardWrap {
+  width: min(100%, 380px);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.actionButton {
+  padding: 10px 18px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    transform 0.15s ease;
+}
+
+.actionButton:hover {
+  border-color: var(--accent);
+}
+
+.autoActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 24px;
+  text-align: center;
+  background: var(--overlay);
+  backdrop-filter: blur(6px);
+  border-radius: var(--radius);
+}
+
+.resultTitle {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.resultText {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.replay {
+  margin-top: 8px;
+  padding: 12px 22px;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--on-accent);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.replay:hover {
+  transform: translateY(-2px);
+}

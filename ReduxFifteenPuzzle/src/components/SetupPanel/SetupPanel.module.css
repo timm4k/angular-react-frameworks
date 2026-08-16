@@ -1,0 +1,79 @@
+.panel {
+  display: grid;
+  gap: 24px;
+  padding: 32px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.fieldGroup {
+  display: grid;
+  gap: 10px;
+}
+
+.label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
+}
+
+.segmented,
+.presets {
+  display: grid;
+  gap: 8px;
+}
+
+.segmented {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.presets {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.option {
+  padding: 10px 12px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-variant-numeric: tabular-nums;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.option:hover {
+  border-color: var(--accent);
+}
+
+.optionActive {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent);
+  font-weight: 600;
+}
+
+.startButton {
+  padding: 14px 20px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--on-accent);
+  font-weight: 700;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
+}
+
+.startButton:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-accent);
+}
